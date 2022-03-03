@@ -17,7 +17,7 @@ sudo docker run -d --restart=always \
  -e REPO_USER=user \
  -e REPO_PASS=password \
  -e PREFIX /example/prefix \
- -v /path/to/volume:/srv/git/repos \
+ -v /path/to/volume:/srv/git \
  git-server
 ```
 
